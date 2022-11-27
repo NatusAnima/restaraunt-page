@@ -1,7 +1,5 @@
 import _ from 'lodash';
-import setup from './baseHTML.js';
-
-setup();
+import './style.css';
 
 console.log("Hello Sailor!");
-console.log("Hello Sailor!!");
+console.log("Hello Sailor!");

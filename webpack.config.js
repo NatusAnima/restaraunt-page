@@ -6,7 +6,6 @@ module.exports = {
     mode: 'development',
     entry: {
         index: './src/index.js',
-        baseHTML: './src/baseHTML.js',
       },
     output: {
         filename: '[name].bundle.js',
@@ -16,6 +15,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
           title: 'Restaraunt Page',
+          template: './src/index.html',
         }),
       ],
     module: {
